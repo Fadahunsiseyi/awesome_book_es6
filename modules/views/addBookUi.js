@@ -15,7 +15,7 @@ class AddBookUi {
       this.clearInputs();
       return info;
     }
-    
+
     addHandlerAdder(handler) {
       this.btn.addEventListener('click', (e) => {
         e.preventDefault();
