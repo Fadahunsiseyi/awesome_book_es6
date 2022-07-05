@@ -6,11 +6,14 @@ class NavigationView {
     section = document.querySelectorAll('.section')
 
     year = document.querySelector('.year')
-    setYear(date){
+    setYear(date) 
+    {
 
       this.year.textContent = `${date.day}-${date.month}-${date.year}, ${date.hour}:${date.minute}`;
     }
-    navigate(){
+
+    navigate() 
+    {
 
       this.navLinks.addEventListener('click', (e) => {
         const clicked = e.target;
