@@ -4,90 +4,90 @@
   box-sizing: border-box;
 }
 
-  html {
+html {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 62.5%;
   font-weight: 700;
 }
 
-  body {
+body {
   padding: 2.4rem;
 }
 
-  .container {
+.container {
   width: 80rem;
   margin: 0 auto;
 }
 
-  .section {
+.section {
   display: none;
   height: 70vh;
 }
 
-  .section--active {
+.section--active {
   display: block;
 }
 
-  .header {
+.header {
   display: flex;
   justify-content: space-between;
   border: 2px solid #000;
   padding: 1.2rem;
 }
 
-  .year-con {
+.year-con {
   margin-top: 1.2rem;
   display: flex;
   flex-direction: row-reverse;
 }
 
-  .year {
+.year {
   font-size: 1.6rem;
 }
 
-  .page-title {
+.page-title {
   font-size: 1.8rem;
 }
 
-  .nav-links {
+.nav-links {
   list-style: none;
   display: flex;
   gap: 1.2rem;
   font-size: 1.8rem;
 }
 
-  .nav-link {
+.nav-link {
   cursor: pointer;
 }
 
-  .nav-link--active {
+.nav-link--active {
   color: #4d4dff;
 }
 
-  .section-title {
+.section-title {
   text-align: center;
   margin-top: 2.4rem;
   margin-bottom: 1.8rem;
   font-size: 2rem;
 }
 
-  .books-container {
+.books-container {
   margin-bottom: 2.4rem;
   border: 2px solid #000;
 }
 
-  .book {
+.book {
   display: flex;
   justify-content: space-between;
   padding: 0.8rem;
   font-size: 1.6rem;
 }
 
-  .book:nth-child(odd) {
+.book:nth-child(odd) {
   background-color: #e6e6e6;
 }
 
-  .remove {
+.remove {
   padding: 0.4rem;
   border: 2px solid #000;
   background: #fff;
@@ -96,14 +96,14 @@
   z-index: 9;
 }
 
-  .form-title {
+.form-title {
   text-align: center;
   margin-bottom: 6.4rem;
   margin-top: 3.6rem;
   font-size: 1.8rem;
 }
 
-  .form {
+.form {
   width: 30rem;
   margin: 0 auto;
   display: flex;
@@ -112,14 +112,14 @@
   margin-bottom: 2.4rem;
 }
 
-  .form-control {
+.form-control {
   width: 100%;
   font-size: 1.6rem;
   border: 2px solid #000;
   padding: 0.4rem;
 }
 
-  .btn-submit {
+.btn-submit {
   align-self: flex-end;
   background: none;
   border: 2px solid #000;
@@ -128,25 +128,25 @@
   padding: 0.4rem;
 }
 
-  .contact-container {
+.contact-container {
   width: 60rem;
   margin: 0 auto;
 }
 
-  .description {
+.description {
   font-size: 1.8rem;
 }
 
-  .contact-list {
+.contact-list {
   padding-left: 4.8rem;
   margin-top: 2.4rem;
 }
 
-  .contact {
+.contact {
   font-size: 1.6rem;
 }
 
-  .footer {
+.footer {
   border: 2px solid #000;
   padding: 1.2rem;
   font-size: 1.8rem;
