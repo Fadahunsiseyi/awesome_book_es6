@@ -20,7 +20,7 @@
   }
   
   .section {
-    /* display: none; */
+    display: none;
     height: 70vh;
   }
   

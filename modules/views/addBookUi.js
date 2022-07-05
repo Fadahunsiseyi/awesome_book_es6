@@ -1,5 +1,5 @@
 
-class BookAddView {
+class AddBookUi {
     title = document.querySelector('.title')
     author = document.querySelector('.author')
     btn = document.querySelector('.btn')
@@ -22,4 +22,4 @@ class BookAddView {
     }
 }
 
-export default new BookAddView()
+export default new AddBookUi()
