@@ -6,11 +6,11 @@ class NavigationView {
     section = document.querySelectorAll('.section')
 
     year = document.querySelector('.year')
-    setYear(date) {
+    setYear(date){
 
       this.year.textContent = `${date.day}-${date.month}-${date.year}, ${date.hour}:${date.minute}`;
-    };
-    navigate() {
+    }
+    navigate(){
 
       this.navLinks.addEventListener('click', (e) => {
         const clicked = e.target;
@@ -21,7 +21,7 @@ class NavigationView {
         this.section.forEach((link) => link.classList.remove('section--active'));
 
         document.querySelector(`.section-${sect}`).classList.add('section--active');
-        });
+      });
     }
 }
 export default new NavigationView();

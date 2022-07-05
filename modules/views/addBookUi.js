@@ -4,8 +4,10 @@ class AddBookUi {
     author = document.querySelector('.author');
     btn = document.querySelector('.btn');
 
+
     clearInputs() {
       this.title.value = '';
+      
       this.author.value = '';
     }
     getFormValues() {
@@ -14,12 +16,12 @@ class AddBookUi {
       this.clearInputs();
       return info;
     }
-    addHandlerAdder(handler) {
-        
+    addHandlerAdder(handler){
+
       this.btn.addEventListener('click', (e) => {
         e.preventDefault();
         handler();
-      })
+      });
     }
-};
+}
 export default new AddBookUi();
