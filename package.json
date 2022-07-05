@@ -1,0 +1,23 @@
+{
+  "name": "awesome_book_es6",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000a\u0000w\u0000e\u0000s\u0000o\u0000m\u0000e\u0000_\u0000b\u0000o\u0000o\u0000k\u0000_\u0000e\u0000s\u00006\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fadahunsiseyi/awesome_book_es6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fadahunsiseyi/awesome_book_es6/issues"
+  },
+  "homepage": "https://github.com/Fadahunsiseyi/awesome_book_es6#readme",
+  "dependencies": {
+    "luxon": "^2.4.0"
+  }
+}

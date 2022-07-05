@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>The Awesome Book</title>
+</head>
+<body>
+    <header class="container header">
+        <p class="page-title">Awesome Books</p>
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-link">List</li>
+                <li class="nav-link">Add New</li>
+                <li class="nav-link">Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="year-con container"> <p class="year"></p> </div>
+    <section class="container section sction-1 section--active">
+        <h1 class="section-title">All Awesome books</h1>
+        <div class="books-container"></div>
+    </section>
+    <section class="container section section-2 ">
+        <h2 class="form-title">Add a new book</h2>
+        <form action="" class="form">
+            <input type="text" class="form-control title" name="title" placeholder="Title" id="title">
+            <input type="text" class="form-control author" name="author" placeholder="Author" id="author">
+            <button type="submit" class="btn">Add</button>
+        </form>
+    </section>
+    <section class="container section section-3">
+        <h2 class="form-title">Contact Information</h2>
+        <div class="contact-container">
+            <p class="description">Do you have any question?</p>
+            <p class="description"></p>
+            <p class="description">You can reach out to us</p>
+            <ul class="contact-list">
+                <li class="contact">
+                    Our email: <a href="mailto:name@gmail.com">name@gmail.com</a>
+                  </li>
+                  <li class="contact">Our phone number: <a href="tel:+111111111">+11111111</a></li>
+                  <li class="contact">Our Address:...........</li>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer container">
+        <p> &copy; Copyright</p>
+      </footer>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
