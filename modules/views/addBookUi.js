@@ -5,15 +5,17 @@ class AddBookUi {
 
     btn = document.querySelector('.btn');
 
-    clearInputs(){
+    clearInputs() {
       this.title.value = '';
       this.author.value = '';
     }
+
     getFormValues() {
       const info = [this.title.value.trim(), this.author.value.trim()];
       this.clearInputs();
       return info;
     }
+    
     addHandlerAdder(handler) {
       this.btn.addEventListener('click', (e) => {
         e.preventDefault();

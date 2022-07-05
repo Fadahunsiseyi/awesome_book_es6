@@ -16,7 +16,7 @@ class BookView {
     }
 
     removeHandlerRemover(handler) {
-      this.parent.addEventListener('click', (e) =>{
+      this.parent.addEventListener('click', (e) => {
         const btn = e.target.closest('.remove');
         if (!btn) return;
         const bookId = +btn.dataset.bookid;
