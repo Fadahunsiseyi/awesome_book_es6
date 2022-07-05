@@ -9,12 +9,12 @@ const addBook = () => {
   if (!title || !author) return;
   model.addBook(title, author);
   bookViews.render(model.state.books);
-}
+};
 
 const removeBook = (id) => {
   model.removeBook(id);
   bookViews.render(model.state.books);
-}
+};
 
 const init = () => {
   model.loadBooks();

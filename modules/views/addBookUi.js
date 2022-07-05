@@ -2,7 +2,6 @@ class AddBookUi {
     title = document.querySelector('.title');
 
     author = document.querySelector('.author');
-    
     btn = document.querySelector('.btn');
 
     clearInputs() {
@@ -10,15 +9,17 @@ class AddBookUi {
       this.author.value = '';
     }
     getFormValues() {
-      const info = [this.title.value.trim(), this.author.value.trim()]
+
+      const info = [this.title.value.trim(), this.author.value.trim()];
       this.clearInputs();
       return info;
     }
     addHandlerAdder(handler) {
+        
       this.btn.addEventListener('click', (e) => {
         e.preventDefault();
         handler();
-      });
-    };
+      })
+    }
 };
 export default new AddBookUi();
